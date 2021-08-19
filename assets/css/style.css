@@ -1,0 +1,75 @@
+/* ESTILOS DA PÁGINA index.html*/
+.center{
+            font-size: 50px;
+            text-align: center;
+        }
+ #p2{
+            font-size: 16px;
+            text-align: center;
+        }
+.container{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+#menu li{
+    display: flex;
+    flex-flow: row;
+    padding: 10px;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+#menu li a{
+    text-decoration: none;
+    color: black;
+}
+#menu li a:hover{
+    color: grey;
+}
+.p-15{
+    padding: 15px;
+    font-size: 16px;
+    text-align: center;
+}
+#video{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 15px;
+}
+.social{
+    padding: 30px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    
+}
+/* ESTILOS DA PÁGINA contato.html*/
+#menu li{
+    display: inline;
+    padding: 10px;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+#menu li a{
+    text-decoration: none;
+    color: black;
+}
+#menu li a:hover{
+    color: grey;
+}
+.container01{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+#a1{
+    padding: 15px;
+}
+#a2{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
